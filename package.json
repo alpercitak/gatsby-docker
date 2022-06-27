@@ -2,8 +2,11 @@
   "name": "gatsby-docker",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-docker",
+  "description": "Gatsby Docker configuration",
   "author": "Alper Çıtak",
+  "main": "index.js",
+  "repository": "https://github.com/alpercitak/gatsby-docker.git",
+  "license": "MIT",
   "keywords": [
     "gatsby"
   ],
