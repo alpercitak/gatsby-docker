@@ -1,4 +1,4 @@
-FROM node:22-alpine AS build-python
+FROM node:25-alpine AS build-python
 
 ENV PYTHONUNBUFFERED=1
 
