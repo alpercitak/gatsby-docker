@@ -28,7 +28,7 @@
     "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "gatsby-plugin-pnpm": "^1.2.10",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.0"
   },
   "packageManager": "pnpm@10.32.1"
 }
