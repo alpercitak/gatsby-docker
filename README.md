@@ -4,51 +4,45 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Gatsby Docker Starter
 </h1>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://www.gatsbyjs.com/"><img alt="Gatsby" src="https://img.shields.io/badge/Gatsby-663399?style=flat&logo=gatsby&logoColor=white"></a>
+  <a href="https://www.docker.com/"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"></a>
+  <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"></a>
+  <a href="https://pnpm.io/"><img alt="pnpm" src="https://img.shields.io/badge/pnpm-F69220?style=flat&logo=pnpm&logoColor=white"></a>
+</p>
+
+This repository demonstrates how to **Dockerize a Gatsby TypeScript application**. It includes a complete Docker setup with a Dockerfile and docker-compose configuration for containerized development and deployment.
+
+📝 **Read the companion article:** [Dockerize Gatsby](https://medium.com/@alpercitak/dockerize-gatsby-8a37a3c4fdef)
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+### Using Docker Compose (Recommended)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+```shell
+docker-compose up
+```
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+Your site will be running at http://localhost:8000
 
-2.  **Start developing.**
+### Local development
 
-    Navigate into your new site’s directory and start it up.
+```shell
+# Install dependencies
+pnpm install
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+# Start developing
+pnpm develop
+```
 
-3.  **Open the code and start customizing!**
+Your site will be running at http://localhost:8000
 
-    Your site is now running at http://localhost:8000!
+## 📚 Learn more
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+- [Gatsby Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Compose Guide](https://docs.docker.com/compose/)
